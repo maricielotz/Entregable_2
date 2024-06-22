@@ -1,37 +1,23 @@
 # Entregable_2
-```sql
-USE MASTER
-GO
-```
-```sql
-SET DATEFORMAT YMD
-GO
-```
-```sql
-IF DB_ID('BDVENTAS') IS NOT NULL
-    DROP DATABASE BDVENTAS
-GO
-```
+**BASE DE DATOS**
 ```sql
 CREATE DATABASE BDVENTAS
 GO
-```
-##### **uso de  DBventas**
-```sql
+
 USE BDVENTAS
 GO
 ```
-#### **crear las tablas**
-**DISTRITO**
+**TABLAS**
+### Distrito
 ```sql
 CREATE TABLE DISTRITO(
     COD_DIS CHAR(5) NOT NULL PRIMARY KEY,
     NOM_DIS VARCHAR(50) NOT NULL
 )
 GO
-```
-**VENDEDOR**
-```sql
+
+### Vendedor
+
 CREATE TABLE VENDEDOR(
     COD_VEN CHAR(3) NOT NULL PRIMARY KEY,
     NOM_VEN VARCHAR(20) NOT NULL,
