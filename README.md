@@ -1,6 +1,6 @@
 # Entregable_2
 **BASE DE DATOS**
-```sql
+````sql
 USE MASTER
 GO
 
@@ -17,7 +17,7 @@ GO
 USE BDVENTAS
 GO
 
-```
+````
 **TABLAS**
 #### Distrito
 ```sql
